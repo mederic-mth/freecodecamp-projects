@@ -1,7 +1,14 @@
-/* Import styles */
+/* ==================== Import Fonts ==================== */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;500;700&display=swap");
 
-/* Global styles */
+/* ==================== Global styles ==================== */
+:root {
+  --primary-color: rgb(240, 240, 240);
+  --secondary-color: rgb(255, 125, 37);
+  --tertiary-color: rgb(23, 50, 70);
+  --hover-color: rgb(30, 100, 161);
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -13,112 +20,140 @@ body::before {
   position: fixed;
   top: 0;
   left: 0;
-  width: 100%;
-  height: 100%;
+  width: 100vw;
+  height: 100vh;
   background-image: url(../assets/bg-image.png);
   background-size: cover;
   background-position: center;
-  z-index: -1;
+  z-index: -10;
 }
 
 html,
 body {
-  display: flex;
-  flex-direction: column;
-  color: rgb(255, 125, 37);
+  color: var(--primary-color);
   font-family: "Poppins", sans-serif;
-  min-height: 100vh;
 }
 
-header a, header img {
+.red {
+  color: rgb(172, 27, 27);
+}
+
+/* ==================== Logo Portfolio ==================== */
+#logo-portfolio {
   position: fixed;
-  top: 2vh;
-  right: 2vw;
-  width: 5%;
+  top: 0;
+  right: 0;
+  width: 5rem;
+  margin-inline: 2.5%;
+  margin-block: 1.5%;
   transition: transform 0.5s;
 }
 
-header img:hover {
+#logo-portfolio img {
+  display: block;
+  width: 100%;
+}
+
+#logo-portfolio:hover {
   transform: scale(1.2);
 }
 
-.title-form {
+#main-container {
+  width: 60rem;
+  max-width: 85vw;
+  margin-inline: auto;
+  margin-block: 2rem 3rem;
+}
+
+#title {
   text-align: center;
-  margin-block: 1rem 2rem;
 }
 
-.label-title {
-  font-weight: bold;
-  font-size: 1.1rem;
+#title h1 {
+  color: var(--secondary-color);
 }
 
-/* Form global style */
+/* ==================== Form ==================== */
 form {
   display: flex;
   flex-direction: column;
   background-color: rgba(11, 30, 38, 0.8);
   border-radius: 20px;
-  box-shadow: 0 0 50px 0 rgba(23, 78, 125, 0.8);
-  line-height: 2.5rem;
-  margin-block: 0 3rem;
-  margin-inline: auto;
-  width: 800px;
-  max-width: 80vw;
+  box-shadow: 0 0 50px 10px var(--tertiary-color);
+  accent-color: var(--secondary-color);
+  line-height: 2rem;
+  margin-top: 2rem;
+  padding-inline: 2rem;
 }
 
-.required-symbol {
-  display: flex;
-  justify-content: flex-end;
+#required-symbol {
+  align-self: flex-end;
   font-size: 0.7rem;
-  margin-right: 1.5em;
+  font-style: italic;
 }
 
-/* Form elements style */
+.label-title {
+  color: var(--secondary-color);
+  font-weight: bold;
+  font-size: 1.1rem;
+  margin-left: 1rem;
+}
+
 input,
 select,
 textarea {
-  display: block;
-  background-color: rgb(23, 50, 70);
-  width: 90%;
-  height: 2.3em;
-  margin-bottom: 2em;
-  margin-left: 2em;
-  color: white;
+  background-color: var(--tertiary-color);
+  color: var(--primary-color);
   border: none;
   border-radius: 4px;
-  text-indent: 0.5rem;
   font-size: 0.9rem;
+  width: 100%;
+  height: 2rem;
+  padding-inline: 1rem 0;
 }
 
-label {
-  display: block;
-  padding-left: 2rem;
+#identity-form input {
+  margin-bottom: 1rem;
 }
 
-input[type="radio"],
-input[type="checkbox"] {
-  display: inline-block;
-  margin: 0;
-  width: 0.9em;
-  height: 0.9em;
+#checkbox-form,
+#radio-form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
 
-.select-form,
-.checkbox-form,
-.radio-form {
-  margin-bottom: 1.5em;
+#checkbox-form input,
+#radio-form input {
+  width: 1em;
+  height: 1em;
+}
+
+#checkbox-form label:hover,
+#radio-form label:hover {
+  color: var(--hover-color);
+  cursor: pointer;
+}
+
+#select-form select:hover {
+  cursor: pointer;
+}
+
+fieldset {
+  margin-bottom: 2em;
+  border: none;
 }
 
 textarea {
-  margin: 0;
+  padding : 0.5em;
   resize: none;
-  height: auto;
-  width: 95%;
+  height: 10em;
+  width: 100%;
 }
 
-/* Button style made by Oscar-Jite (See the footer)*/
 button {
   width: 20%;
+  min-width: 4em;
   height: 2.5em;
   margin: 2em auto;
   font-size: 1.5rem;
@@ -127,10 +162,8 @@ button {
   background: none;
   color: #00c2cb;
   display: inline-block;
-  outline: none;
   cursor: pointer;
-  transition: 200ms;
-  will-change: transform;
+  transition: transform 200ms;
 }
 
 button:hover {
@@ -141,44 +174,22 @@ button:hover {
   transition: 200ms;
 }
 
-/* Footer styles */
+/*==================== Footer ====================*/
 footer {
-  position: sticky;
-  top: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background-color: rgba(11, 30, 38, 0.9);
-  height: auto;
-  font-size: 0.9rem;
-  color: rgba(255, 125, 37, 0.7);
-}
-
-footer a {
-  color: rgba(255, 125, 37, 0.7);
-}
-
-.footer-link {
   display: flex;
   justify-content: space-evenly;
-  width: 90%;
-  padding: 1.5em;
-  border-bottom: solid;
-  border-color: rgb(23, 50, 70);
+  align-items: center;
+  background-color: rgba(11, 30, 38, 0.9);
+  height: 5rem;
+  font-size: 0.8rem;
 }
 
-.footer-info {
-  font-size: 0.9rem;
-  margin: 2em;
-}
-
-/* Link styles */
 a {
-  color: rgb(255, 125, 37);
+  color: var(--primary-color);
 }
 
 a:hover {
-  color: rgb(30, 100, 161);
+  color: var(--hover-color);
 }
 
 a:active {
