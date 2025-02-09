@@ -16,15 +16,15 @@ This repository contains all the web development projects I've built throughout 
 
 ## 📋 Projects List
 
-Each folder represents a project, organized from oldest to newest:
+Each folder represents a project, listed in the order they are given in the freeCodeCamp curriculum:
 
-| 📅 Date    | 📝 Project Name             | 🌐 Live Demo                                                                                | 📂 GitHub Repo                                                                           |
-|------------|------------------------------|---------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------|
-| 18-12-2024 | Survey Form                  | [View Site](https://mederic-mth.github.io/freecodecamp-projects/01-survey-form/index.html)  | [GitHub](https://github.com/mederic-mth/freecodecamp-projects/tree/main/01-survey-form)   |
-| 24-01-2025 | Tribute Page                 | [View Site](https://mederic-mth.github.io/freecodecamp-projects/02-tribute-page/index.html) | [GitHub](https://github.com/mederic-mth/freecodecamp-projects/tree/main/02-tribute-page)  |
-| 🚧         | Technical Documentation Page | 🚧                                                                                         | 🚧                                                                                        |
-| ⌛         | Product Landing Page         | ⌛                                                                                         | ⌛                                                                                        |
-| ⏳         | Personal Portfolio Webpage   | ⏳                                                                                         | ⏳                                                                                        |
+| 📅 Last Update | 📝 Project Name             | 🌐 Live Demo                                                                                | 📂 GitHub Repo                                                                           |
+|----------------|------------------------------|---------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------|
+| 08-02-2025     | Survey Form                  | [View Site](https://mederic-mth.github.io/freecodecamp-projects/01-survey-form/index.html)  | [GitHub](https://github.com/mederic-mth/freecodecamp-projects/tree/main/01-survey-form)   |
+| 24-01-2025     | Tribute Page                 | [View Site](https://mederic-mth.github.io/freecodecamp-projects/02-tribute-page/index.html) | [GitHub](https://github.com/mederic-mth/freecodecamp-projects/tree/main/02-tribute-page)  |
+| 🚧             | Technical Documentation Page | 🚧                                                                                         | 🚧                                                                                        |
+| ⌛             | Product Landing Page         | ⌛                                                                                         | ⌛                                                                                        |
+| ⏳             | Personal Portfolio Webpage   | ⏳                                                                                         | ⏳                                                                                        |
 
 
 ## 📬 Contact
