@@ -1,6 +1,6 @@
 # freecodecamp-projects
 Welcome!  
-This repository contains all the web development projects I've built throughout the **FreeCodeCamp** training program. These projects showcase my growing expertise in front-end technologies.
+This repository contains all the web development projects I built throughout the **FreeCodeCamp** training program. These projects showcase my growing expertise in front-end technologies.
 
 ## 🎓 Learning platforms
 ![FreeCodeCamp](https://img.shields.io/badge/FreeCodeCamp-0A0A23.svg?&amp;style=flat&amp;logo=freecodecamp&amp;logoColor=white)
@@ -26,6 +26,7 @@ Each folder represents a project, listed in the order they are given in the free
 | ⌛             | Product Landing Page         | ⌛                                                                                         | ⌛                                                                                        |
 | ⏳             | Personal Portfolio Webpage   | ⏳                                                                                         | ⏳                                                                                        |
 
+*On any of my project pages, you can return to the repository by clicking on my logo ( <img src="01-survey-form/assets/logo-portfolio.png" height="23" align="center" /> ) in the top right corner.*
 
 ## 📬 Contact
 [![GitHub](https://img.shields.io/badge/GitHub-mederic--mth-%23121011.svg?style=flat&amp;logo=github&amp;logoColor=white)](https://github.com/mederic-mth)  
