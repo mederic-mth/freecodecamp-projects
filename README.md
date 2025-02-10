@@ -1,6 +1,6 @@
 # freecodecamp-projects
 Welcome!  
-This repository contains all the web development projects I've built throughout the **FreeCodeCamp** training program. These projects showcase my growing expertise in front-end technologies.
+This repository contains all the web development projects I built throughout the **FreeCodeCamp** training program. These projects showcase my growing expertise in front-end technologies.
 
 ## 🎓 Learning platforms
 ![FreeCodeCamp](https://img.shields.io/badge/FreeCodeCamp-0A0A23.svg?&amp;style=flat&amp;logo=freecodecamp&amp;logoColor=white)
@@ -16,16 +16,17 @@ This repository contains all the web development projects I've built throughout 
 
 ## 📋 Projects List
 
-Each folder represents a project, organized from oldest to newest:
+Each folder represents a project, listed in the order they are given in the freeCodeCamp curriculum:
 
-| 📅 Date    | 📝 Project Name             | 🌐 Live Demo                                                                                | 📂 GitHub Repo                                                                           |
-|------------|------------------------------|---------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------|
-| 18-12-2024 | Survey Form                  | [View Site](https://mederic-mth.github.io/freecodecamp-projects/01-survey-form/index.html)  | [GitHub](https://github.com/mederic-mth/freecodecamp-projects/tree/main/01-survey-form)   |
-| 24-01-2025 | Tribute Page                 | [View Site](https://mederic-mth.github.io/freecodecamp-projects/02-tribute-page/index.html) | [GitHub](https://github.com/mederic-mth/freecodecamp-projects/tree/main/02-tribute-page)  |
-| 🚧         | Technical Documentation Page | 🚧                                                                                         | 🚧                                                                                        |
-| ⌛         | Product Landing Page         | ⌛                                                                                         | ⌛                                                                                        |
-| ⏳         | Personal Portfolio Webpage   | ⏳                                                                                         | ⏳                                                                                        |
+| 📅 Last Update | 📝 Project Name             | 🌐 Live Demo                                                                                | 📂 GitHub Repo                                                                           |
+|----------------|------------------------------|---------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------|
+| 08-02-2025     | Survey Form                  | [View Site](https://mederic-mth.github.io/freecodecamp-projects/01-survey-form/index.html)  | [GitHub](https://github.com/mederic-mth/freecodecamp-projects/tree/main/01-survey-form)   |
+| 24-01-2025     | Tribute Page                 | [View Site](https://mederic-mth.github.io/freecodecamp-projects/02-tribute-page/index.html) | [GitHub](https://github.com/mederic-mth/freecodecamp-projects/tree/main/02-tribute-page)  |
+| 🚧             | Technical Documentation Page | 🚧                                                                                         | 🚧                                                                                        |
+| ⌛             | Product Landing Page         | ⌛                                                                                         | ⌛                                                                                        |
+| ⏳             | Personal Portfolio Webpage   | ⏳                                                                                         | ⏳                                                                                        |
 
+*On any of my project pages, you can return to the repository by clicking on my logo ( <img src="01-survey-form/assets/logo-portfolio.png" height="23" align="center" /> ) in the top right corner.*
 
 ## 📬 Contact
 [![GitHub](https://img.shields.io/badge/GitHub-mederic--mth-%23121011.svg?style=flat&amp;logo=github&amp;logoColor=white)](https://github.com/mederic-mth)  
