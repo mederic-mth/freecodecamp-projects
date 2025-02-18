@@ -43,9 +43,9 @@ body {
   position: fixed;
   top: 0;
   right: 0;
-  width: 5rem;
-  margin-inline: 2.5%;
-  margin-block: 1.5%;
+  width: 4rem;
+  margin-inline: 1.5%;
+  margin-block: 1%;
   transition: transform 0.5s;
 }
 
@@ -58,6 +58,7 @@ body {
   transform: scale(1.2);
 }
 
+/* ==================== Form ==================== */
 #main-container {
   width: 60rem;
   max-width: 85vw;
@@ -73,7 +74,6 @@ body {
   color: var(--secondary-color);
 }
 
-/* ==================== Form ==================== */
 form {
   display: flex;
   flex-direction: column;
